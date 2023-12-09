@@ -50,7 +50,7 @@ body {
 }
 .accent_span {
   display: block;
-  font-family: "EbgamondMedium", "Arial", sans-serif;
+  font-family: "EB Garamond", "Arial", sans-serif;
   font-weight: 400;
   font-style: normal;
 }
@@ -93,7 +93,7 @@ body {
   gap: 32px;
 }
 .content-section__subtitle {
-  font-family: "EbgamondMedium", "Arial", sans-serif;
+  font-family: "EB Garamond", "Arial", sans-serif;
   font-size: 28px;
   line-height: 32.2px;
   font-style: normal;
@@ -120,7 +120,7 @@ body {
   font-style: normal;
 }
 .content-section__list-accent {
-  font-family: "InterBold", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 21.6px;
   font-style: normal;
@@ -163,7 +163,7 @@ body {
   border-radius: 50px;
 }
 .card__author_name {
-  font-family: "InterBold", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 21.6px;
 }
@@ -173,7 +173,7 @@ body {
   gap: 8px;
 }
 .card__title {
-  font-family: "EbgamondMedium", "Arial", sans-serif;
+  font-family: "EB Garamond", "Arial", sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 29.7px;

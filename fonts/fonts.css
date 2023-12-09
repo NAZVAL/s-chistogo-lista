@@ -7,7 +7,7 @@
   font-weight: 400;
 }
 @font-face {
-  font-family: "InterBold";
+  font-family: "Inter";
   font-display: swap;
   src: url(/fonts/interbold.ttf) format("ttf"),
     url(/fonts/interbold.woff) format("woff"),
@@ -15,7 +15,7 @@
   font-weight: 700;
 }
 @font-face {
-  font-family: "EbgamondMedium";
+  font-family: "EB Garamond";
   font-display: swap;
   src: url(/fonts/ebgaramondmedium.ttf) format("ttf"),
     url(/fonts/ebgaramondmedium.woff) format("woff"),
@@ -23,7 +23,7 @@
   font-weight: 500;
 }
 @font-face {
-  font-family: "Ebgamond";
+  font-family: "EB Garamond";
   font-display: swap;
   src: url(/fonts/ebgaramondregular.ttf) format("ttf"),
     url(/fonts/ebgaramondregular.woff) format("woff"),
