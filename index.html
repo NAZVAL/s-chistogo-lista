@@ -4,9 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>С чистого листа</title>
-    <link rel="stylesheet" href="/fonts/fonts.css" />
-    <link rel="stylesheet" href="/styles/reset.css" />
-    <link rel="stylesheet" href="/styles/style.css" />
+    <link rel="stylesheet" href="./fonts/fonts.css" />
+    <link rel="stylesheet" href="./style/reset.css" />
+    <link rel="stylesheet" href="./style/style.css" />
   </head>
   <body>
     <header class="content-section content-section_theme_dark header">
@@ -19,9 +19,15 @@
       </a>
       <nav>
         <ul class="header__menu-list">
-          <li>Главная</li>
-          <li><a class="header__menu-item-link" href="#0">О нас</a></li>
-          <li><a class="header__menu-item-link" href="#0">Контакты</a></li>
+          <li>
+            <a class="header__menu-item-link link_active" href="#0">Главная</a>
+          </li>
+          <li>
+            <a class="header__menu-item-link link_active" href="#0">О нас</a>
+          </li>
+          <li>
+            <a class="header__menu-item-link link_active" href="#0">Контакты</a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -109,7 +115,7 @@
       <section class="content-section content-section_theme_dark how-to">
         <h2 class="content-section__subtitle">
           <span class="accent_span text-right">Как всё-таки начать</span
-          ><span class="accent_span">начинать что-то делать</span>
+          ><span class="accent_span">что-то делать</span>
         </h2>
         <p class="content-section__introduction">
           Чаще всего страх чистого листа появляется не из-за чего-то одного, а
@@ -121,7 +127,7 @@
               <div class="card__author">
                 <img
                   class="card__author_photo"
-                  src="/images/polyarinov.png"
+                  src="./images/polyarinov.png"
                   alt="Картинка автора"
                 />
                 <p class="card__author_name">Алексей Поляринов</p>
@@ -187,10 +193,14 @@
     </main>
     <footer class="content-section content-section_theme_dark footer">
       <p class="footer__copy">© VЁRSTKA</p>
-      <div class="footer__links">
-        <a class="footer__links_item" href="#0">ВК</a>
-        <a class="footer__links_item" href="#0">Ютуб</a>
-      </div>
+      <ul class="footer__links">
+        <li>
+          <a class="footer__links_item link_active" href="#0">ВК</a>
+        </li>
+        <li>
+          <a class="footer__links_item link_active" href="#0">Ютуб</a>
+        </li>
+      </ul>
     </footer>
   </body>
 </html>

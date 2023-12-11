@@ -1,6 +1,10 @@
 body {
   font-family: "Inter", "Arial", sans-serif;
   font-weight: 400;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 .content-section {
   width: 360px;
@@ -39,19 +43,29 @@ body {
   line-height: 19.2px;
   font-style: normal;
 }
+.link_active:active {
+  color: #0c00e9;
+  text-decoration: none;
+}
 .cover {
   padding: 7px 0 0 21px;
+  background: url(/images/cover.svg);
+  background-color: #131313;
+  background-size: 339px auto;
+  background-repeat: no-repeat;
+  background-position: bottom right;
+  min-height: 198px;
 }
 .cover__title {
-  background: url(/images/cover.svg) no-repeat bottom;
   padding: 0 24px 5px 1px;
   font-size: 72px;
   line-height: 72px;
+  color: #ffffff;
 }
 .accent_span {
   display: block;
-  font-family: "EbgamondMedium", "Arial", sans-serif;
-  font-weight: 400;
+  font-family: "EB Garamond", "Arial", sans-serif;
+  font-weight: 500;
   font-style: normal;
 }
 .text-center {
@@ -93,7 +107,7 @@ body {
   gap: 32px;
 }
 .content-section__subtitle {
-  font-family: "EbgamondMedium", "Arial", sans-serif;
+  font-family: "EB Garamond", "Arial", sans-serif;
   font-size: 28px;
   line-height: 32.2px;
   font-style: normal;
@@ -120,10 +134,11 @@ body {
   font-style: normal;
 }
 .content-section__list-accent {
-  font-family: "InterBold", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 21.6px;
   font-style: normal;
+  font-weight: 700;
 }
 .how-to {
   display: flex;
@@ -160,12 +175,13 @@ body {
 .card__author_photo {
   width: 100px;
   height: 100px;
-  border-radius: 50px;
+  border-radius: 50%;
 }
 .card__author_name {
-  font-family: "InterBold", "Arial", sans-serif;
+  font-family: "Inter", "Arial", sans-serif;
   font-size: 16px;
   line-height: 21.6px;
+  font-weight: 700;
 }
 .card__content {
   display: flex;
@@ -173,7 +189,7 @@ body {
   gap: 8px;
 }
 .card__title {
-  font-family: "EbgamondMedium", "Arial", sans-serif;
+  font-family: "EB Garamond", "Arial", sans-serif;
   font-size: 22px;
   font-weight: 500;
   line-height: 29.7px;
@@ -201,6 +217,7 @@ body {
 .footer__links {
   display: flex;
   gap: 16px;
+  list-style-type: none;
 }
 .footer__links_item {
   text-decoration: none;
