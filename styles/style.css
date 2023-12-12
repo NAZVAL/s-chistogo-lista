@@ -47,9 +47,12 @@ body {
   color: #0c00e9;
   text-decoration: none;
 }
+.link_selected {
+  text-decoration: none;
+}
 .cover {
   padding: 7px 0 0 21px;
-  background: url(/images/cover.svg);
+  background: url(../images/cover.svg);
   background-color: #131313;
   background-size: 339px auto;
   background-repeat: no-repeat;
